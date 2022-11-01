@@ -2,13 +2,8 @@
 public class Runner {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		//by-default : a default constructor 
-		//is provided in non are in the class
-Ghost capser = new Ghost();
-
-//dot operator allows access to all PUBLIC methods and properties 
-System.out.println(casper);
+		//dot operator allows access to all PUBLIC methods and properties 
+System.out.println("casper");
 
 }
 //only 1 public class can exist in a java file 
@@ -35,15 +30,12 @@ class Ghost{
 		height = 5.0;
 		isScary = false;
 	}
-	
 }
+}
+
+	
 
 
 
 //the tostring method allows printing of this object
 //it's called everyting this object is passed to print or println
-public String toString() {
-
-	return name + ":" + isScary;
-	
-}

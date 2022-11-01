@@ -24,10 +24,6 @@ public class Spider {
 	 * 
 	 */
 	Spider s2 = new Spider("trantula", true, "solid brown",  5);
-	System.out.println(s2);
-	System.out.println(s2.getName());
-	System.out.println(s2.getLength);
-	System.out.println(s2.getVenomonus);
 
 	
 	
@@ -49,6 +45,7 @@ public class Spider {
 	public Void setName(String newName) {
 		//assign instance varibale property to the parameter
 		name = newName;
+		return null;
 	}
 	
 	/* setters-allow for change of instances variables*/
