@@ -11,11 +11,6 @@ Color color;
 int vrejHeight, vrejWidth;
 Color vrejColor;
 
-//********************
-//
-//  constructors
-//
-//********************
 
 public Pumpkin()
 {
@@ -30,7 +25,7 @@ vrejHeight=15;
 vrejWidth=4;
 vrejColor=Color.green;
 
-}// end default constructor
+}
 
 
 
@@ -46,22 +41,21 @@ public Pumpkin(int s, int h, int w, int c, Color clr)
 public void setShape(int s)
 {
 	shape = s;
-} // end setShape
-
+} 
 public void setHeight(int h)
 {
 	height = h;
-} // end setHeight
+}
 
 public void setWidth(int w)
 {
 	width = w;
-} // end setWidth
+} 
 
 public void setCloseness(int c)
 {
 	closeness = c;
-} // end setCloseness
+}
 
 public void setColor(Color clr)
 {
@@ -72,22 +66,22 @@ public void setColor(Color clr)
 public int getShape()
 {
 	return shape;
-} // end getShape
+} 
 
 public int getHeight()
 {
 	return height;
-} // end getHeight
+} 
 
 public int getWidth()
 {
 	return width;
-} // end getWidth
+}
 
 public int getCloseness()
 {
 	return closeness;
-} // end getCloseness
+}
 
 public Color getColor()
 {
@@ -96,12 +90,12 @@ public Color getColor()
 public void increaseHeight()
 {
 	height++;
-} // end increaseHeight
+} 
 
 public void increaseWidth()
 {
 	width++;
-} // end increaseWidth
+} 
 
 public void increaseCloseness()
 {
